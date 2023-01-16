@@ -39,7 +39,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
               variant="success"
               onClick={() => increaseCartQuantity(id)}
             >
-              Add To Cart
+              Add To Room
             </Button>
           ) : (
             <div
@@ -57,7 +57,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
                   -
                 </Button>
                 <div>
-                  <span className="fs-3">{quantity}</span> in cart
+                  <span className="fs-3">{quantity}</span> in the Room
                 </div>
                 <Button
                   variant="success"

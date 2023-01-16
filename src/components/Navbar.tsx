@@ -15,10 +15,10 @@ export function Navbar() {
           <Nav.Link to="/" as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
+          <Nav.Link to="/plants" as={NavLink}>
             Plants
           </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
+          <Nav.Link to="/groom" as={NavLink}>
             G Room
           </Nav.Link>
           <Nav.Link to="/about" as={NavLink}>
