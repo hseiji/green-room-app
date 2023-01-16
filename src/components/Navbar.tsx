@@ -5,7 +5,11 @@ import { useShoppingCart } from '../context/ShoppingCartContext'
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
-    <NavbarBoot sticky="top" className="bg-white shadow-sm mb-3">
+    <NavbarBoot
+      sticky="top"
+      variant="light"
+      className="bg-success shadow-sm mb-3"
+    >
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
@@ -13,6 +17,9 @@ export function Navbar() {
           </Nav.Link>
           <Nav.Link to="/store" as={NavLink}>
             Plants
+          </Nav.Link>
+          <Nav.Link to="/store" as={NavLink}>
+            G Room
           </Nav.Link>
           <Nav.Link to="/about" as={NavLink}>
             About
