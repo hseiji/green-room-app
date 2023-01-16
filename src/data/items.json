@@ -28,5 +28,11 @@
     "name": "Dracaena",
     "price": 10,
     "imgUrl": "/images/dracaena.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Epipremnum",
+    "price": 10,
+    "imgUrl": "/images/epipremnum.jpg"
   }
 ]
