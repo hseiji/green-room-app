@@ -3,6 +3,7 @@ export function Home() {
     <>
       <h1>Home</h1>
       <p>Let's build our garden! =)</p>
+      <p>Insert instructions map over here...</p>
     </>
   )
 }
