@@ -21,13 +21,10 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
             <CartItem key={item.id} {...item} />
           ))}
           <div className="ms-auto fw-bold fs-5">
-            Total{' '}
-            {formatCurrency(
-              cartItems.reduce((total, cartItem) => {
-                const item = storeItems.find((i) => i.id === cartItem.id)
-                return total + (item?.price || 0) * cartItem.quantity
-              }, 0),
-            )}
+            Total Plants{' '}
+            {cartItems.reduce((total, cartItem) => {
+              return total + cartItem.quantity
+            }, 0)}
           </div>
         </Stack>
       </Offcanvas.Body>
