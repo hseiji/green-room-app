@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Book",
+    "name": "Snake Plant",
     "price": 10.99,
-    "imgUrl": "/images/book.jpg"
+    "imgUrl": "/images/snake-plant.jpeg"
   },
   {
     "id": 2,
-    "name": "Computer",
+    "name": "Alocasia Black Velvet",
     "price": 1199,
-    "imgUrl": "/images/computer.jpg"
+    "imgUrl": "/images/alocasia-black-velvet.jpg"
   },
   {
     "id": 3,
-    "name": "Banana",
+    "name": "Golden Bamboo",
     "price": 1.05,
-    "imgUrl": "/images/banana.jpg"
+    "imgUrl": "/images/golden-bamboo.jpg"
   },
   {
     "id": 4,
-    "name": "Car",
+    "name": "Monstera Pinnatipartita",
     "price": 14000,
-    "imgUrl": "/images/car.jpg"
+    "imgUrl": "/images/Monstera Pinnatipartita.jpg"
   },
   {
     "id": 5,
