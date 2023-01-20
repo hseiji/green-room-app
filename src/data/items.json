@@ -2,37 +2,55 @@
   {
     "id": 1,
     "name": "Snake Plant",
-    "price": 10.99,
+    "desc": "lorem ipsum",
+    "water": 10.99,
+    "soil": 2,
+    "light": 3,
     "imgUrl": "/images/snake-plant.jpeg"
   },
   {
     "id": 2,
     "name": "Alocasia Black Velvet",
-    "price": 1199,
+    "desc": "lorem ipsum",
+    "water": 1199,
+    "soil": 2,
+    "light": 3,
     "imgUrl": "/images/alocasia-black-velvet.jpg"
   },
   {
     "id": 3,
     "name": "Golden Bamboo",
-    "price": 1.05,
+    "desc": "lorem ipsum",
+    "water": 1.05,
+    "soil": 2,
+    "light": 3,
     "imgUrl": "/images/golden-bamboo.jpg"
   },
   {
     "id": 4,
     "name": "Monstera Pinnatipartita",
-    "price": 14000,
+    "desc": "lorem ipsum",
+    "water": 14000,
+    "soil": 2,
+    "light": 3,
     "imgUrl": "/images/Monstera Pinnatipartita.jpg"
   },
   {
     "id": 5,
     "name": "Dracaena",
-    "price": 10,
+    "desc": "lorem ipsum",
+    "water": 10,
+    "soil": 2,
+    "light": 3,
     "imgUrl": "/images/dracaena.jpeg"
   },
   {
     "id": 6,
     "name": "Epipremnum",
-    "price": 10,
+    "desc": "lorem ipsum",
+    "water": 10,
+    "soil": 2,
+    "light": 3,
     "imgUrl": "/images/epipremnum.jpg"
   }
 ]
