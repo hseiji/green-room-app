@@ -6,10 +6,6 @@ export function GRoom() {
     <>
       <h1>Green Room</h1>
       <h4>Plants Description</h4>
-      {storeItems.map((item) => {
-        item.name
-      })}
-
       <Table>
         <thead>
           <th>Name</th>
@@ -19,11 +15,15 @@ export function GRoom() {
           <th>Light</th>
         </thead>
         <tbody>
-          <td>test1a</td>
-          <td>test1b</td>
-          <td>test1c</td>
-          <td>test1d</td>
-          <td>test1e</td>
+          {storeItems.map(
+            (item) => (
+              <td>item.name</td>
+            ),
+            // <td>test1b</td>
+            // <td>test1c</td>
+            // <td>test1d</td>
+            // <td>test1e</td>
+          )}
         </tbody>
       </Table>
 

@@ -5,11 +5,22 @@ import { formatCurrency } from '../helpers/formatCurrency'
 type StoreItemProps = {
   id: number
   name: string
-  price: number
+  desc: string
+  water: number
+  soil: number
+  light: number
   imgUrl: string
 }
 
-export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
+export function StoreItem({
+  id,
+  name,
+  desc,
+  water,
+  soil,
+  light,
+  imgUrl,
+}: StoreItemProps) {
   const {
     getItemQuantity,
     increaseCartQuantity,
