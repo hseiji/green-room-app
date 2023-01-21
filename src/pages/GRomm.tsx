@@ -1,4 +1,5 @@
 import { Table } from 'react-bootstrap'
+import { GRoomItem } from '../components/GRoomItem'
 import storeItems from '../data/items.json'
 
 export function GRoom() {
@@ -15,15 +16,9 @@ export function GRoom() {
           <th>Light</th>
         </thead>
         <tbody>
-          {storeItems.map(
-            (item) => (
-              <td>item.name</td>
-            ),
-            // <td>test1b</td>
-            // <td>test1c</td>
-            // <td>test1d</td>
-            // <td>test1e</td>
-          )}
+          {storeItems.map((item) => (
+            <GRoomItem {...item} />
+          ))}
         </tbody>
       </Table>
 
