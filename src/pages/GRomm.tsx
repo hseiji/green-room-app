@@ -14,6 +14,7 @@ export function GRoom() {
           <th>Water</th>
           <th>Soil</th>
           <th>Light</th>
+          <th>Img</th>
         </thead>
         <tbody>
           {storeItems.map((item) => (
