@@ -8,12 +8,12 @@ type GRoomItemProps = {
 
 export function GRoomItem({ name, desc, water, soil, light }: GRoomItemProps) {
   return (
-    <>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
-      <td>test</td>
-    </>
+    <tr>
+      <td>{name}</td>
+      <td>{desc}</td>
+      <td>{water}</td>
+      <td>{soil}</td>
+      <td>{light}</td>
+    </tr>
   )
 }
