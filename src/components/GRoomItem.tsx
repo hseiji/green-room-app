@@ -1,31 +1,23 @@
 import { Image } from 'react-bootstrap'
+import storeItems from '../data/items.json'
 
 type GRoomItemProps = {
-  name: string
-  desc: string
-  water: number
-  soil: number
-  light: number
-  imgUrl: string
+  id: number
 }
 
-export function GRoomItem({
-  name,
-  desc,
-  water,
-  soil,
-  light,
-  imgUrl,
-}: GRoomItemProps) {
+export function GRoomItem({ id }: GRoomItemProps) {
+  const item = storeItems.find((i) => i.id === id)
+  if (item == null) return null
+
   return (
     <tr>
-      <td>{name}</td>
-      <td>{desc}</td>
-      <td>{water}</td>
-      <td>{soil}</td>
-      <td>{light}</td>
+      <td>{item.name}</td>
+      <td>{item.desc}</td>
+      <td>{item.water}</td>
+      <td>{item.soil}</td>
+      <td>{item.light}</td>
       <td>
-        <Image src={imgUrl} height="200px" />
+        <Image src={item.imgUrl} height="80px" />
       </td>
     </tr>
   )

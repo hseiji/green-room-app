@@ -1,8 +1,11 @@
 import { Table } from 'react-bootstrap'
 import { GRoomItem } from '../components/GRoomItem'
+import { useShoppingCart } from '../context/ShoppingCartContext'
 import storeItems from '../data/items.json'
 
 export function GRoom() {
+  const { cartItems } = useShoppingCart()
+
   return (
     <>
       <h1>Green Room</h1>
@@ -17,8 +20,8 @@ export function GRoom() {
           <th>Img</th>
         </thead>
         <tbody>
-          {storeItems.map((item) => (
-            <GRoomItem {...item} />
+          {cartItems.map((item) => (
+            <GRoomItem key={item.id} {...item} />
           ))}
         </tbody>
       </Table>
