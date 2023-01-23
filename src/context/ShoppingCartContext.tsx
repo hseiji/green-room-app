@@ -1,5 +1,5 @@
 import { createContext, ReactNode, useContext, useState } from 'react'
-import { ShoppingCart } from '../components/ShoppingCart'
+import { SideSummary } from '../components/SideSummary'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 
 type ShoppingCartProviderProps = {
@@ -98,7 +98,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
       }}
     >
       {children}
-      <ShoppingCart isOpen={isOpen} />
+      <SideSummary isOpen={isOpen} />
     </ShoppingCartContext.Provider>
   )
 }

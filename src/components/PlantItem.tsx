@@ -1,13 +1,13 @@
 import { Button, Card } from 'react-bootstrap'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 
-type StoreItemProps = {
+type PlantItemProps = {
   id: number
   name: string
   imgUrl: string
 }
 
-export function StoreItem({ id, name, imgUrl }: StoreItemProps) {
+export function PlantItem({ id, name, imgUrl }: PlantItemProps) {
   const {
     getItemQuantity,
     increaseCartQuantity,

@@ -1,8 +1,8 @@
 import { Col, Row } from 'react-bootstrap'
-import { StoreItem } from '../components/StoreItem'
+import { PlantItem } from '../components/PlantItem'
 import storeItems from '../data/items.json'
 
-export function Store() {
+export function Plants() {
   return (
     <>
       <h1>Plants</h1>
@@ -10,7 +10,7 @@ export function Store() {
       <Row xs={1} md={2} lg={3} className="g-3">
         {storeItems.map((item) => (
           <Col>
-            <StoreItem {...item} />
+            <PlantItem {...item} />
           </Col>
         ))}
       </Row>

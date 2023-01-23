@@ -1,12 +1,12 @@
 import { Offcanvas, Stack } from 'react-bootstrap'
 import { useShoppingCart } from '../context/ShoppingCartContext'
-import { CartItem } from './CartItem'
+import { SideSummaryItem } from './SideSummaryItem'
 
-type ShoppingCartProps = {
+type SideSummaryProps = {
   isOpen: boolean
 }
 
-export function ShoppingCart({ isOpen }: ShoppingCartProps) {
+export function SideSummary({ isOpen }: SideSummaryProps) {
   const { closeCart, cartItems } = useShoppingCart()
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
@@ -16,7 +16,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
       <Offcanvas.Body>
         <Stack gap={3}>
           {cartItems.map((item) => (
-            <CartItem key={item.id} {...item} />
+            <SideSummaryItem key={item.id} {...item} />
           ))}
           <div className="ms-auto fw-bold fs-5">
             Total Plants{' '}
