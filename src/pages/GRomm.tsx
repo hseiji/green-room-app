@@ -1,6 +1,6 @@
 import { Table } from 'react-bootstrap'
 import { GRoomItem } from '../components/GRoomItem'
-import { useShoppingCart } from '../context/ShoppingCartContext'
+import { useShoppingCart } from '../context/PlantContext'
 
 export function GRoom() {
   const { cartItems } = useShoppingCart()

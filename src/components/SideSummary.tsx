@@ -1,5 +1,5 @@
 import { Offcanvas, Stack } from 'react-bootstrap'
-import { useShoppingCart } from '../context/ShoppingCartContext'
+import { useShoppingCart } from '../context/PlantContext'
 import { SideSummaryItem } from './SideSummaryItem'
 
 type SideSummaryProps = {

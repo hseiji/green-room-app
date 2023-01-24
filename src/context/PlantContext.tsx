@@ -2,7 +2,7 @@ import { createContext, ReactNode, useContext, useState } from 'react'
 import { SideSummary } from '../components/SideSummary'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 
-type ShoppingCartProviderProps = {
+type PlantsProviderProps = {
   children: ReactNode
 }
 
@@ -11,7 +11,7 @@ type CartItem = {
   quantity: number
 }
 
-type ShoppingCartContext = {
+type PlantContext = {
   openCart: () => void
   closeCart: () => void
   getItemQuantity: (id: number) => number
@@ -22,13 +22,13 @@ type ShoppingCartContext = {
   cartItems: CartItem[]
 }
 
-const ShoppingCartContext = createContext({} as ShoppingCartContext)
+const PlantContext = createContext({} as PlantContext)
 
 export function useShoppingCart() {
-  return useContext(ShoppingCartContext)
+  return useContext(PlantContext)
 }
 
-export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
+export function PlantProvider({ children }: PlantsProviderProps) {
   const [cartItems, setCartItems] = useLocalStorage<CartItem[]>(
     'shopping-cart',
     [],
@@ -85,7 +85,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   }
 
   return (
-    <ShoppingCartContext.Provider
+    <PlantContext.Provider
       value={{
         getItemQuantity,
         increaseCartQuantity,
@@ -99,6 +99,6 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     >
       {children}
       <SideSummary isOpen={isOpen} />
-    </ShoppingCartContext.Provider>
+    </PlantContext.Provider>
   )
 }

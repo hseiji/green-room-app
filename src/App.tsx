@@ -4,12 +4,12 @@ import { Home } from './pages/Home'
 import { Plants } from './pages/Plants'
 import { About } from './pages/About'
 import { Navbar } from './components/Navbar'
-import { ShoppingCartProvider } from './context/ShoppingCartContext'
+import { PlantProvider } from './context/PlantContext'
 import { GRoom } from './pages/GRomm'
 
 function App() {
   return (
-    <ShoppingCartProvider>
+    <PlantProvider>
       <Navbar />
       <Container className="mb-4">
         <Routes>
@@ -19,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </Container>
-    </ShoppingCartProvider>
+    </PlantProvider>
   )
 }
 
