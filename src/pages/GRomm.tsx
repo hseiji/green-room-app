@@ -25,7 +25,9 @@ export function GRoom() {
         </tbody>
       </Table>
 
-      <p>2D room and place plants (numbers) in the space</p>
+      <p>
+        Future visual chart will be displayed in the near future (coming soon).
+      </p>
     </>
   )
 }
