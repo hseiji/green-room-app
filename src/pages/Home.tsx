@@ -1,4 +1,4 @@
-import { Alert } from 'react-bootstrap'
+import { Nav } from 'react-bootstrap'
 
 export function Home() {
   return (
@@ -14,7 +14,7 @@ export function Home() {
       <a href="/groom">Go to Green Room!</a>
 
       <p>Test</p>
-      <Alert.Link href="plants">this is a link</Alert.Link>
+      <Nav.Link href="plants">this is a link</Nav.Link>
     </>
   )
 }
