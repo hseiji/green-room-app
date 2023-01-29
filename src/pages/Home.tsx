@@ -3,13 +3,13 @@ export function Home() {
     <>
       <h1>Home</h1>
       <p>Let's build our garden in our Green Room! =)</p>
-      <a href="plants">Build here!</a>
+      <a href="/plants">Build here!</a>
       <p>
         This app is still in progress. But you can play around adding and
         removing plants to your room.
       </p>
       <p>Or if you already have your garden set up access again here below.</p>
-      <a href="groom">Go to Green Room!</a>
+      <a href="/groom">Go to Green Room!</a>
     </>
   )
 }
