@@ -9,6 +9,7 @@ export function About() {
         water, soil, light and more. Additionally, it is a place for me to
         showcase my skills in web development =)
       </p>
+      <p>Tech stack for this app: React and Typescript.</p>
     </>
   )
 }
