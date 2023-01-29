@@ -1,3 +1,5 @@
+import { Alert } from 'react-bootstrap'
+
 export function Home() {
   return (
     <>
@@ -10,6 +12,9 @@ export function Home() {
       </p>
       <p>Or if you already have your garden set up access again here below.</p>
       <a href="/groom">Go to Green Room!</a>
+
+      <p>Test</p>
+      <Alert.Link href="plants">this is a link</Alert.Link>
     </>
   )
 }
