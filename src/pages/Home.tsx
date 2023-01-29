@@ -1,4 +1,4 @@
-import { Nav } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 
 export function Home() {
   return (
@@ -14,7 +14,7 @@ export function Home() {
       <a href="/groom">Go to Green Room!</a>
 
       <p>Test</p>
-      <Nav.Link href="plants">this is a link</Nav.Link>
+      <NavLink to="/plants">this is a link</NavLink>
     </>
   )
 }
