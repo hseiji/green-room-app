@@ -4,7 +4,7 @@ import PlantsCarrousel from '../components/PlantsCarrousel'
 export function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <h1>🌱 Welcome 🌱</h1>
       <p>Let's build our garden in our Green Room! =)</p>
       <NavLink to="/plants">Build here!</NavLink>
       <p>
