@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import PlantsCarrousel from '../components/PlantsCarrousel'
 
 export function Home() {
   return (
@@ -12,6 +13,7 @@ export function Home() {
       </p>
       <p>Or if you already have your garden set up access again here below.</p>
       <NavLink to="/groom">Go to Green Room!</NavLink>
+      <PlantsCarrousel />
     </>
   )
 }
