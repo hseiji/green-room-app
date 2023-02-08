@@ -17,7 +17,8 @@ function PlantsCarrousel() {
             className="d-block w-100"
             src={item.imgUrl}
             alt="First slide"
-            height="200px"
+            // height="200px"
+            // width="50px"
           />
           <Carousel.Caption>
             <h3>{item.name}</h3>
