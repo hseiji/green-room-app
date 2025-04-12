@@ -6,7 +6,7 @@
     "water": 10.99,
     "soil": 2,
     "light": 3,
-    "imgUrl": "/images/snake-plant.jpeg"
+    "imgUrl": "images/snake-plant.jpeg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "water": 1199,
     "soil": 2,
     "light": 3,
-    "imgUrl": "/images/alocasia-black-velvet2.jpg"
+    "imgUrl": "images/alocasia-black-velvet2.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "water": 1.05,
     "soil": 2,
     "light": 3,
-    "imgUrl": "/images/golden-bamboo.jpg"
+    "imgUrl": "images/golden-bamboo.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "water": 14000,
     "soil": 2,
     "light": 3,
-    "imgUrl": "/images/Monstera Pinnatipartita.jpg"
+    "imgUrl": "images/Monstera Pinnatipartita.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "water": 10,
     "soil": 2,
     "light": 3,
-    "imgUrl": "/images/dracaena2.jpg"
+    "imgUrl": "images/dracaena2.jpg"
   },
   {
     "id": 6,
@@ -51,6 +51,6 @@
     "water": 10,
     "soil": 2,
     "light": 3,
-    "imgUrl": "/images/epipremnum.jpg"
+    "imgUrl": "images/epipremnum.jpg"
   }
 ]
